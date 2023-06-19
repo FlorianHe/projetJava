@@ -1,0 +1,14 @@
+class Movie {
+
+    public static void main(final String[] args) {
+	final String movieName = "Indiana Jones and the Last Crusade";
+        final boolean hasSeen = true;
+        final int releaseYear = 1989;
+	final double rate = 8.2;
+
+        System.out.println(movieName);
+	System.out.println(hasSeen);
+	System.out.println(releaseYear);
+	System.out.println(rate);
+    }
+}
